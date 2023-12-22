@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Main;
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +15,5 @@ use App\Livewire\Main;
 */
 
 Route::get('/', Main::class);
+Route::get('/home1', \App\Livewire\Home::class)->name('home');
+Route::get('/home', [HomeController::class, 'index']);
