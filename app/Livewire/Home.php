@@ -6,23 +6,23 @@ use Livewire\Component;
 
 class Home extends Component
 {
-    public $gander = '';
- 
+    public $gender = '';
+
     public $berat = '';
 
     public $tinggi = '';
 
     public $size = '';
- 
+
     public function save()
     {
-        $this->$size = $this->$tinggi;
-        return $this->$size;
+        $this->size = $this->gender;
+        return $this->size;
     }
 
 
-    public function render() 
-    { 
+    public function render()
+    {
         return view('livewire.home');
     }
 }
