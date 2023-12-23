@@ -1,9 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Livewire\Main;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\MainController;
+use App\Livewire\Home;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +13,4 @@ use App\Http\Controllers\MainController;
 |
 */
 
-Route::get('/', Main::class);
+Route::get('/', Home::class);
