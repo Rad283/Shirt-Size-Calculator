@@ -1,11 +1,9 @@
-@extends('admin.layout.index')
-@section('content')
 <main class="page lanidng-page">
     <div class="d-flex justify-content-center my-5">
         <div class="card align-self-center w-75">
             <div class="card-header bg-dark text-light">
                 <h4>Calculate My Size</h4>
-            </div>
+            </div> 
             <div class="card-body">
                 <form>
                     <div class="form-group row mb-3"><label class="form-label col-4 col-form-label">Tinggi (cm)</label><input class="form-control w-50" type="number" id="tinggi"></div>
@@ -31,4 +29,3 @@
         </div>
     </div>
 </main>
-@endsection

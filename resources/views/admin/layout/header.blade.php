@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset ('assets/css/untitled-1.css') }}">
     <link rel="stylesheet" href="{{ asset ('assets/css/untitled-2.css') }}">
     <link rel="stylesheet" href="{{ asset ('assets/css/untitled-3.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/untitled.css') }}">
+    <link rel="stylesheet" href="{{ asset ('assets/css/untitled.css') }}"> 
 </head>
 <body class="d-flex flex-column min-vh-100">
   <nav class="navbar navbar-light navbar-expand-md d-flex d-lg-flex align-items-center align-content-center align-items-lg-center portfolio-navbart bg-dark text-light" style="filter: saturate(107%);">

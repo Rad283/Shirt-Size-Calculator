@@ -7,6 +7,6 @@
 <script src="{{ asset ('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset ('https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js') }}"></script>
 <script src="{{ asset ('assets/js/theme.js') }} "></script>
-</body>
+</body> 
 
 </html>
