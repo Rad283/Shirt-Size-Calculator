@@ -3,24 +3,18 @@
 namespace App\Livewire;
 
 use Livewire\Component;
+use App\FactoryPattern\SizeChartFactory;
 
 class Home extends Component
 {
-    public $gender = '';
+    public $weight, $height, $gender, $size;
 
-    public $berat = '';
-
-    public $tinggi = '';
-
-    public $size = '';
-
-    public function save()
+    public function calcSize()
     {
-        $this->size = $this->gender;
-        return $this->size;
+        $sizeChart = SizeChartFactory::createSizeChart($this->gender);
+        $this->size = $sizeChart->getSize($this->weight, $this->height, $this->gender);
     }
-
-
+  
     public function render()
     {
         return view('livewire.home');
