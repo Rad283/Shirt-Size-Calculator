@@ -32,7 +32,7 @@
                         </div>
                         <div class="form-group row my-3">
                             <div class="col-12">
-                                <button name="submit" type="submit" class="btn btn-primary btn-block"
+                                <button  type="button" class="btn btn-primary btn-block"
                                     wire:click="calcSize">
                                     Get
                                     Your
