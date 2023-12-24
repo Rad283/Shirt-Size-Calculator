@@ -14,7 +14,7 @@ class Home extends Component
         $sizeChart = SizeChartFactory::createSizeChart($this->gender);
         $this->size = $sizeChart->getSize($this->weight, $this->height, $this->gender);
     }
-
+  
     public function render()
     {
         return view('livewire.home');
