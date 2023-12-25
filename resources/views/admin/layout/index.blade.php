@@ -33,7 +33,7 @@
 <footer class="page-footer mt-auto bg-dark text-light">
     <div class="container">
         <div class="links text-light"><a class="text-light" href="#">Made By: Kelompok 5</a></div>
-        <div><a class="bg-light" href="#"><i class="icon ion-social-github"></i></a><span>&nbsp;Github</span></div>
+        <div><a class="bg-light" href="#"></a><span>&nbsp;Github</span></div>
     </div>
   </footer>
   <script src="{{ asset ('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js') }}"></script>

@@ -43,9 +43,7 @@
                 </form>
             </div>
         </div>
-    </div>
-    <div class="row d-flex justify-content-center my-5">
-        <div class="card align-self-center w-75">
+        <div class="card align-self-center w-75" style="margin-bottom:50px">
             <div class="card-body">
                 <div class="form-group row mb-3">
                     <h1>Your size:&nbsp; &nbsp; {{ $size }}</h1>
@@ -53,4 +51,5 @@
             </div>
         </div>
     </div>
+    
 </main>
